@@ -1,11 +1,11 @@
-// definindo cores no ultimo sera aleatorio.
+
 const colors = document.querySelectorAll('.color');
 colors[0].style.background = 'black';
 colors[1].style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 254})`;
 colors[2].style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 254})`;
 colors[3].style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 254})`;
 
-
+// definindo cores no ultimo sera aleatorio.
 
 // tabela 
 // lembrar tr sao linhas e td sao celulas
